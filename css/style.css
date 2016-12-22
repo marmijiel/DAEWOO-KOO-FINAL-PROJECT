@@ -86,7 +86,7 @@ a {
 
 #footer {
   text-align: center;
-  margin: 30px auto 0;
+  margin: 30px auto;
 }
 
 
@@ -140,8 +140,25 @@ a {
 
 #pageContact,
 #pageAbout {
-  border: 4px black solid;
+  /*border: 4px black solid;*/
 }
+#pageAbout p,
+#pageAbout img{
+  max-width: 60%;
+  margin:0 auto;
+  display:block;
+}
+
+
+#pageAbout p {
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0 0;
+  max-width: 80%;
+  line-height: 1.6;
+}
+
 
 #loadMore {
   cursor: pointer;
